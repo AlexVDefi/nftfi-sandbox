@@ -54,6 +54,11 @@
     "**/*.tsx",
     ".storybook/*.ts",
     ".next/types/**/*.ts",
-    "src/libs/Env.mjs"
+    "src/libs/Env.mjs",
+    "src/utils/insertAddress.js",
+    "src/utils/lenderStats.js",
+    "src/utils/fetchLenders.js",
+    "src/pages/api/addresses.js",
+    "src/utils/connectDb.js"
   ]
 }
