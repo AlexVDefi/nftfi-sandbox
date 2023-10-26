@@ -62,10 +62,7 @@ function AddressPage() {
             <p>Loans Given: {addressDetails.loan_count}</p>
             <p>Amount Lent: {formatter.format(addressDetails.USD)}</p>
             <p>Foreclosed Loans: {addressDetails.foreclosed_loan_count}</p>
-            <p>
-              Interest Earned:{' '}
-              {formatter.format(addressDetails.interest_earned)}
-            </p>
+            <p>Interest Earned: {formatter.format(addressDetails.interest_earned)}</p>
           </div>
         </div>
         <div className="h-full w-2/3 p-4">
